@@ -2,7 +2,6 @@ import { AboutMe } from "@/components/AboutMe";
 import { Experience } from "@/components/Experience";
 import { HomeSection } from "@/components/HomeSection";
 import { FloatingButton } from "@/components/knap";
-import { Skills } from "@/components/Skills";
 
 export default function Home() {
   return (

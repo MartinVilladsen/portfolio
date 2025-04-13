@@ -1,6 +1,3 @@
-import { databases, frameworks, languages, tools } from "./Skill"
-
-
 export const educations = [
     {
         name: 'Business Academy Aarhus',
