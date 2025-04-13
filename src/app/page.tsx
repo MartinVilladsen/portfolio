@@ -3,6 +3,7 @@ import { Contact } from "@/components/Contact";
 import { Experience } from "@/components/Experience";
 import { HomeSection } from "@/components/HomeSection";
 import { FloatingButton } from "@/components/knap";
+import { Project } from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -10,9 +11,10 @@ export default function Home() {
       <HomeSection />
       <AboutMe />
       <Experience />
+      <Project />
       <FloatingButton />
       <Contact />
-      
+      <br />
     </div>
   );
 }

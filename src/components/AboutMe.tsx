@@ -19,7 +19,7 @@ export function AboutMe() {
                 </p>
                 <br />
                 <p className='text-2xl text-white pt-2'>
-                    When im not working on a project, I spent most of my time with my girlfriend and friends, working out and playing videogames. I also have a huge passion for football
+                    When im not working on a project, I spent most of my time with my girlfriend, friends, working out and playing videogames. I also have a huge passion for football and love to go abroad for a match😄
                 </p>            
             </motion.div>
 

@@ -91,5 +91,9 @@ export const tools = [
     {
         name: 'Git',
         icon: '/icons/Tools/git.png'
+    },
+    {
+        name: 'Docker',
+        icon: '/icons/Tools/docker.png'
     }
 ]
