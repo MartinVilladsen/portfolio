@@ -31,7 +31,7 @@ export const experiences = [
         title: 'Junior Software Engineer, Intern',
         image: '/images/Experience/Heyloyalty.png',
         period: 'January 2025 - June 2025',
-        accomplishment: ['Managed a team of developers, fostering a culture of innovation and continuous improvement.', 'fullstack sheeesh'],
+        accomplishment: ['Developed and maintained frontend and backend features, focusing on performance and scalability', 'Worked with APIs to handle email sending and user management', 'Collaborated closely with the development team using Git and agile workflows to plan and deliver features'],
         tools: [
             {
                 name: 'PHP',

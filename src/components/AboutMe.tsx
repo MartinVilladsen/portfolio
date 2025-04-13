@@ -13,9 +13,15 @@ export function AboutMe() {
             
                 <h1 className='text-4xl text-white font-bold'>About Me</h1>
                 <p className='text-2xl text-white pt-5'>
-                    Insert text about me
+                    Soon to be graduate in AP Computer Science with a passion for backend development and problem-sovling. 
+                    As part of my studies, I completed an internship at Heyloyalty. My favorite part of programming is the problem-solving process and the thrill of learning something new. 
+                    I really enjoy the satisfaction of finding solutions to challenging problems😁
+                </p>
+                <br />
+                <p className='text-2xl text-white pt-2'>
+                    When im not working on a project, I spent most of my time with my girlfriend and friends, working out and playing videogames. I also have a huge passion for football
                 </p>            
-                </motion.div>
+            </motion.div>
 
             <Skills />
             

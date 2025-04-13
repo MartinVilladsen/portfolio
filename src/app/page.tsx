@@ -1,4 +1,5 @@
 import { AboutMe } from "@/components/AboutMe";
+import { Contact } from "@/components/Contact";
 import { Experience } from "@/components/Experience";
 import { HomeSection } from "@/components/HomeSection";
 import { FloatingButton } from "@/components/knap";
@@ -10,11 +11,7 @@ export default function Home() {
       <AboutMe />
       <Experience />
       <FloatingButton />
-      <br />
-      <br />
-      <br />
-      <br />
-
+      <Contact />
       
     </div>
   );
