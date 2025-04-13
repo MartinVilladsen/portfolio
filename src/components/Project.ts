@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'Dinner Picker',
-        icon: '/icons/Languages/JS.png',
+        icon: '/images/dinnerpicker.png',
         description: 'asdas',
         link: '',
         github: 'https://github.com/MartinVilladsen/DinnerPicker',
@@ -22,7 +22,7 @@ export const projects = [
     },
     {
         name: 'Fridge Tracker',
-        icon: '/icons/Languages/TS.png',
+        icon: '/images/fridgetracker.png',
         description: 'asdas',
         link: 'https://fridge-tracker.vercel.app/',
         github: '',
@@ -33,7 +33,7 @@ export const projects = [
             },
             {
                 name: 'NextJS',
-                icon: '/icons/Frameworks/nextjs.png'
+                icon: '/icons/Frameworks/Nextjs.png'
             },
             {
                 name: 'React',
@@ -49,7 +49,7 @@ export const projects = [
         name: 'Fridge adas',
         icon: '/icons/Languages/TS.png',
         description: 'asdas',
-        link: 'https://fridge-tracker.vercel.app/',
+        link: '',
         github: '',
         tools: [
             {
@@ -58,7 +58,7 @@ export const projects = [
             },
             {
                 name: 'NextJS',
-                icon: '/icons/Frameworks/nextjs.png'
+                icon: '/icons/Frameworks/Nextjs.png'
             },
             {
                 name: 'React',

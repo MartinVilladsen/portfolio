@@ -29,7 +29,7 @@ export function Project() {
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90" />
                             </a>
-                                    </div>
+                        </div>
                             ) : 
                             <div className="h-1/2 relative">
                                     <Image
@@ -43,9 +43,7 @@ export function Project() {
                                 </div>     
                             }
 
-                        {/* Content Section */}
                         <div className="p-6 h-1/2 flex flex-col justify-between">
-                            {/* Title and Description */}
                             <div className='flex gap-2'>
                                 <h2 className="text-2xl font-bold text-white">{project.name}</h2>
                                 {project.github ? (
@@ -59,9 +57,20 @@ export function Project() {
                                  />
                                  </a>
                                 ) : null}
+                                {project.link ? (
+                                    <a href={project.link} target='_blank'>
+                                    <Image
+                                     src="/images/tv.png"
+                                     alt="gmail"
+                                     className="bg-auto p-1"
+                                     width={40}
+                                     height={40}
+                                 />
+                                 </a>
+                                ) : null}
                             </div>
+                           
                                 <p className='text-slate-300'>{project.description}</p>
-                            {/* Technologies Used */}
                             <div className='py-1 w-full overflow-hidden'>
                                 <ul className='flex flex-wrap items-center gap-2'>
                                     {project.tools.map((tool) => (
