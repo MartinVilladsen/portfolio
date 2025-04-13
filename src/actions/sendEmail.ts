@@ -12,7 +12,7 @@ export async function sendEmail(FormData: FormData) {
         from: "Contact Me <onboarding@resend.dev>",
         to: 'martin.k.villadsen@gmail.com',
         subject: 'Email TEST',
-        reply_to: senderEmail as string,
+        replyTo: senderEmail as string,
         text: message as string
     });
 }
