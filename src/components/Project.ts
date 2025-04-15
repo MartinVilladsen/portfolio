@@ -1,7 +1,7 @@
 export const projects = [
     {
         name: 'Fridge Tracker',
-        icon: '/images/fridgetracker.png',
+        icon: '/images/fridgetrack.png',
         description: 'App to keep track of when your food is about to expire. Currently, users need to sign in with their Google account to use the application.',
         link: 'https://fridge-tracker.vercel.app/',
         github: '',
@@ -26,7 +26,7 @@ export const projects = [
     },
     {
         name: 'WhoAreYa',
-        icon: '/images/SoccerGuessr.PNG',
+        icon: '/images/soccerguessr.png',
         description: 'A football quiz game where you guess the mystery player based on selected teams.',
         link: '',
         github: 'https://github.com/MartinVilladsen/SoccerGuessr',
@@ -72,7 +72,7 @@ export const projects = [
     },
     {
         name: 'Time Registration',
-        icon: '/images/TimeRegistration.png',
+        icon: '/images/timeregistration.png',
         description: '4th semester exam project. The solution included both an MVC web application and a WPF desktop application connected to a database',
         link: '',
         github: 'https://github.com/MartinVilladsen/TimeRegistration',
