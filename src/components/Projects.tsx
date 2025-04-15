@@ -8,6 +8,7 @@ export function Project() {
     return (
         <section id="projects" className="flex flex-col items-center w-full pt-20 justify-center">
             <h1 className="text-4xl text-white font-bold pb-10">Projects</h1>
+            <h2 className="text-white pb-10">Although this portfolio mainly highlights my front-end projects, my main enjoyment comes from working with back-end development alongside relational databases. Nonetheless, i enjoy building systems and applications that are visually appealing and highly functional  and i am eager to continue growing as a full-stack developer.</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
                 {projects.map((project) => (
                     <motion.div
