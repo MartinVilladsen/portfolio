@@ -13,9 +13,9 @@ export function AboutMe() {
            
                 <h1 className='text-3xl md:text-4xl text-white font-bold'>About Me</h1>
                 <p className='text-lg md:text-2xl text-white pt-4 md:pt-5 text-left md:text-center'>
-                    As I approach the end of my Datamatiker education, I'm enthusiastic about putting my software development skills to work in building impactful solutions.
-                    As part of my studies, I completed an internship at Heyloyalty. I'm passionate about using technology to tackle real-world challenges, and improve user experiences.
-                    I'm thrilled at the idea of teaming up with passionate individuals and visionary organizations to make a real difference.😁
+                    As I approach the end of my Datamatiker education, Im enthusiastic about putting my software development skills to work in building impactful solutions.
+                    As part of my studies, I completed an internship at Heyloyalty. Im passionate about using technology to tackle real-world challenges, and improve user experiences.
+                    Im thrilled at the idea of teaming up with passionate individuals and visionary organizations to make a real difference.😁
                 </p>
                 <br />
                 <p className='text-lg md:text-2xl text-white pt-2 text-left md:text-center'>
