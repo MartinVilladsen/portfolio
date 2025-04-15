@@ -6,8 +6,8 @@ import { projects } from './Project';
 
 export function Project() {
     return (
-        <section id="portfolio" className="flex flex-col items-center w-full pt-20 justify-center">
-            <h1 className="text-4xl text-white font-bold pb-10">Portfolio</h1>
+        <section id="projects" className="flex flex-col items-center w-full pt-20 justify-center">
+            <h1 className="text-4xl text-white font-bold pb-10">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
                 {projects.map((project) => (
                     <motion.div
@@ -15,7 +15,7 @@ export function Project() {
                         initial={{ y: 50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ type: 'spring', stiffness: 60, damping: 12 }}
-                        className="relative overflow-hidden rounded-lg bg-slate-900 border border-slate-800 shadow-lg h-[400px]"
+                        className="relative overflow-hidden rounded-lg bg-slate-900 border border-slate-800 shadow-lg h-[600px]"
                     >
                             {project.link ? (
                         <div className="h-1/2 relative">
@@ -51,7 +51,7 @@ export function Project() {
                                     <Image
                                      src="/images/Github.png"
                                      alt="Github"
-                                     className="bg-auto p-1"
+                                     className="bg-auto p-1 bg-white border rounded-2xl"
                                      width={40}
                                      height={40}
                                  />
@@ -62,7 +62,7 @@ export function Project() {
                                     <Image
                                      src="/images/tv.png"
                                      alt="gmail"
-                                     className="bg-auto p-1"
+                                     className="bg-auto p-1 bg-white border rounded-2xl"
                                      width={40}
                                      height={40}
                                  />

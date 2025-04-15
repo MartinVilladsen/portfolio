@@ -9,7 +9,7 @@ export function Contact() {
     return (
         <section id="contact" className="flex flex-col items-center w-full pt-20 justify-center">
             <h1 className='text-4xl text-white font-bold pb-2'>Contact Me</h1>
-            <h2 className="text-white pb-10">Please contact me directly at martin.k.villadsen@gmail.com or through this form.</h2>
+            <h2 className="text-white pb-10">If you want to get in touch, please contact me directly at martin.k.villadsen@gmail.com or through this form.😀</h2>
             <div className="w-full max-w-[500px]">
                 <div className="bg-slate-900 border border-slate-800 shadow-lg rounded-lg p-4">
                     <form 

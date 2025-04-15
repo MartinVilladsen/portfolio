@@ -1,29 +1,8 @@
 export const projects = [
     {
-        name: 'Dinner Picker',
-        icon: '/images/dinnerpicker.png',
-        description: 'asdas',
-        link: '',
-        github: 'https://github.com/MartinVilladsen/DinnerPicker',
-        tools: [
-            {
-                name: 'PHP',
-                icon: '/icons/Languages/PHP.png'
-            },
-            {
-                name: 'Laravel',
-                icon: '/icons/Frameworks/Laravel.png'
-            },
-            {
-                name: 'Livewire',
-                icon: '/icons/Frameworks/livewire.png'
-            }
-        ]
-    },
-    {
         name: 'Fridge Tracker',
         icon: '/images/fridgetracker.png',
-        description: 'asdas',
+        description: 'App to keep track of when your food is about to expire. Currently, users need to sign in with their Google account to use the application.',
         link: 'https://fridge-tracker.vercel.app/',
         github: '',
         tools: [
@@ -46,25 +25,116 @@ export const projects = [
         ]
     },
     {
-        name: 'Fridge adas',
-        icon: '/icons/Languages/TS.png',
-        description: 'asdas',
+        name: 'WhoAreYa',
+        icon: '/images/SoccerGuessr.PNG',
+        description: 'A football quiz game where you guess the mystery player based on selected teams.',
         link: '',
-        github: '',
+        github: 'https://github.com/MartinVilladsen/SoccerGuessr',
         tools: [
             {
-                name: 'TypeScript',
-                icon: '/icons/Languages/TS.png'
+                name: 'JavaScript',
+                icon: '/icons/Languages/JS.png'
             },
             {
-                name: 'NextJS',
-                icon: '/icons/Frameworks/Nextjs.png'
+                name: 'NodeJS',
+                icon: '/icons/Frameworks/NodeJS.png'
             },
             {
-                name: 'React',
-                icon: '/icons/Frameworks/react.png'
+                name: 'Express',
+                icon: '/icons/Frameworks/ExpressJS.png'
+            },
+            {
+                name: 'MongoDB',
+                icon:'/icons/Databases/mongodb.png'
             }
         ]
     },
-    
+    {
+        name: 'Dinner Picker',
+        icon: '/images/dinnerpicker.png',
+        description: 'This app uses the Salling Group API to identify the most frequently purchased products within a selected food category, and items that are often bought together.',
+        link: '',
+        github: 'https://github.com/MartinVilladsen/DinnerPicker',
+        tools: [
+            {
+                name: 'PHP',
+                icon: '/icons/Languages/PHP.png'
+            },
+            {
+                name: 'Laravel',
+                icon: '/icons/Frameworks/Laravel.png'
+            },
+            {
+                name: 'Livewire',
+                icon: '/icons/Frameworks/livewire.png'
+            }
+        ]
+    },
+    {
+        name: 'Time Registration',
+        icon: '/images/TimeRegistration.png',
+        description: '4th semester exam project. The solution included both an MVC web application and a WPF desktop application connected to a database',
+        link: '',
+        github: 'https://github.com/MartinVilladsen/TimeRegistration',
+        tools: [
+            {
+                name: 'C#',
+                icon: '/icons/Languages/CSharp.png'
+            },
+            {
+                name: 'ASP.NET',
+                icon: '/icons/Frameworks/NET.png'
+            },
+            {
+                name: 'EntityFramework',
+                icon: '/icons/Frameworks/NET.png'
+            },
+            {
+                name: 'MSSQL',
+                icon: '/icons/Databases/SQL.png'
+            }
+        ]
+    },
+    {
+        name: 'Multiplayer Maze Game',
+        icon: '/images/maze.png',
+        description: 'A group project where we developed a TCP server to host a multiplayer maze game. The goal was to allow multiple players to join and interact in real-time within the game environment.',
+        link: '',
+        github: 'https://github.com/MartinVilladsen/NetworkGame',
+        tools: [
+            {
+                name: 'Java',
+                icon: '/icons/Languages/Java.png'
+            }
+        ]
+    },
+    {
+        name: 'Inventory Management Application',
+        icon: '/images/grillbutikken.png',
+        description: 'Grillbutikken.dk ønskede et inventarsystem til deres lageropbevaring. Dette blev lavet i samarbejde med et gruppeprojekt på 4. semester.',
+        link: '',
+        github: 'https://github.com/MartinVilladsen/TimeRegistration',
+        tools: [
+            {
+                name: 'C#',
+                icon: '/icons/Languages/CSharp.png'
+            },
+            {
+                name: 'ASP.NET',
+                icon: '/icons/Frameworks/NET.png'
+            },
+            {
+                name: 'EntityFramework',
+                icon: '/icons/Frameworks/NET.png'
+            },
+            {
+                name: 'LINQ',
+                icon: '/icons/Frameworks/NET.png'
+            },
+            {
+                name: 'MSSQL',
+                icon: '/icons/Databases/SQL.png'
+            }
+        ]
+    },
 ]

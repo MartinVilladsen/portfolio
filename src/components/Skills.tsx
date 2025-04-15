@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 export function Skills() {
     return(
-        <div className='flex flex-col items-center pt-8 md:pt-15 gap-3 md:gap-5 w-full'>
-            <h1 className='text-start text-xl md:text-2xl text-white font-semibold w-full'>Languages</h1>
-            <ul className='flex flex-wrap items-center justify-start py-1 rounded-2xl gap-3 md:gap-6 w-full'>
+        <div className='flex flex-col items-center pt-8 md:pt-15 gap-3 md:gap-5 w-full max-w-4xl mx-auto px-4'>
+            <h1 className='text-center text-xl md:text-2xl text-white font-semibold w-full'>Languages</h1>
+            <ul className='flex flex-wrap items-center justify-center py-1 rounded-2xl gap-3 md:gap-6 w-full'>
                 {languages.map((language, index) => (
                     <motion.li 
                     key={index}
@@ -25,8 +25,8 @@ export function Skills() {
                     </motion.li>
                 ))}
             </ul>
-            <h1 className='text-start text-xl md:text-2xl text-white font-semibold w-full'>Frameworks</h1>
-            <ul className='flex flex-wrap items-center justify-start py-1 rounded-2xl gap-3 md:gap-6 w-full'>
+            <h1 className='text-center text-xl md:text-2xl text-white font-semibold w-full'>Frameworks</h1>
+            <ul className='flex flex-wrap items-center justify-center py-1 rounded-2xl gap-3 md:gap-6 w-full'>
                 {frameworks.map((framework, index) => (
                     <motion.li 
                     key={index}
@@ -43,8 +43,8 @@ export function Skills() {
                     </motion.li>
                 ))}
             </ul>
-            <h1 className='text-start text-xl md:text-2xl text-white font-semibold w-full'>Databases</h1>
-            <ul className='flex flex-wrap items-center justify-start py-1 rounded-2xl gap-3 md:gap-6 w-full'>
+            <h1 className='text-center text-xl md:text-2xl text-white font-semibold w-full'>Databases</h1>
+            <ul className='flex flex-wrap items-center justify-center py-1 rounded-2xl gap-3 md:gap-6 w-full'>
                 {databases.map((database, index) => (
                     <motion.li 
                     key={index}
@@ -61,8 +61,8 @@ export function Skills() {
                     </motion.li>
                 ))}
             </ul>
-            <h1 className='text-start text-xl md:text-2xl text-white font-semibold w-full'>Tools</h1>
-            <ul className='flex flex-wrap items-center justify-start py-1 rounded-2xl gap-3 md:gap-6 w-full'>
+            <h1 className='text-center text-xl md:text-2xl text-white font-semibold w-full'>Tools</h1>
+            <ul className='flex flex-wrap items-center justify-center py-1 rounded-2xl gap-3 md:gap-6 w-full'>
                 {tools.map((tool, index) => (
                     <motion.li 
                     key={index}

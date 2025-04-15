@@ -43,17 +43,31 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-body {
-  background: #0a1a42;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
-html,
+html, 
 body {
-  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(to bottom, #0a1a42 0%, #193366 40%, #266ac2 70%, #33a1c5 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#__next, 
+.your-main-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, transparent, rgba(10, 26, 66, 0.1) 75%, rgba(173, 216, 230, 0.2));
+  background-size: 100% 100vh;
+  background-repeat: repeat-y;
 }
 
 :root {
