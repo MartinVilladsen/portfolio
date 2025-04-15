@@ -3,6 +3,7 @@
 import { sendEmail } from "@/actions/sendEmail"
 import { Plane } from "lucide-react"
 import { useFormStatus } from "react-dom"
+import { toast } from "sonner"
 
 export function Contact() {
   const { pending } = useFormStatus()
@@ -10,9 +11,7 @@ export function Contact() {
   return (
     <section id="contact" className="flex flex-col items-center w-full pt-20 pb-20 justify-center px-4">
       <div className="text-center max-w-2xl mx-auto mb-10">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
-          Contact Me
-        </h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Contact Me</h1>
         <p className="text-blue-100/90 text-lg">
           If you want to get in touch, please contact me directly at{" "}
           <a
@@ -28,8 +27,17 @@ export function Contact() {
       <div className="w-full max-w-[550px]">
         <div className="bg-gradient-to-br from-[#193366]/90 to-[#0a1a42]/90 backdrop-blur-sm border border-[#266ac2]/30 shadow-lg rounded-xl p-6 md:p-8">
           <form
-            action={async (FormData) => {
-              await sendEmail(FormData)
+            action={async (formData) => {
+              try {
+                await sendEmail(formData)
+                toast("Message sent", {
+                  description: "Email successfully sent",
+                })
+              } catch (error) {
+                toast("Error", {
+                  description: "Failed to send email. Please try again.",
+                })
+              }
             }}
             className="flex flex-col gap-5"
           >
