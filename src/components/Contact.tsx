@@ -34,6 +34,7 @@ export function Contact() {
                   description: "Email successfully sent",
                 })
               } catch (error) {
+                console.error("Email sending failed:", error)
                 toast("Error", {
                   description: "Failed to send email. Please try again.",
                 })
