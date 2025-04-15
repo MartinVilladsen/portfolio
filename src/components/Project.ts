@@ -26,7 +26,7 @@ export const projects = [
     },
     {
         name: 'WhoAreYa',
-        icon: 'https://i.ibb.co/BK4bjgvC/Soccer-Guessr.png',
+        icon: 'https://i.ibb.co/tpMZMknH/Soccer-Guessr.png',
         description: 'A football quiz game where you guess the mystery player based on selected teams.',
         link: '',
         github: 'https://github.com/MartinVilladsen/SoccerGuessr',
