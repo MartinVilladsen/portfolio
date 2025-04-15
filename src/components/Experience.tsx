@@ -15,26 +15,27 @@ export function Experience() {
                 transition={{ type: 'spring', stiffness: 60, damping: 12 }}
             >
                 <Tabs defaultValue="experience" className="w-full max-w-[500px]">
-                    <TabsList className="grid w-full grid-cols-2 bg-slate-900 border border-slate-800 pb-1">
-                        <TabsTrigger 
+                <TabsList className="grid w-full grid-cols-2 bg-gradient-to-r from-[#193366]/90 to-[#0a1a42]/90 backdrop-blur-sm border border-[#266ac2]/30 rounded-t-xl overflow-hidden">
+                <TabsTrigger 
                             value="experience" 
-                            className="data-[state=active]:bg-slate-800 text-white font-semibold"
+                            className="data-[state=active]:bg-gradient-to-b data-[state=active]:from-[#266ac2]/40 data-[state=active]:to-[#193366]/40 data-[state=active]:text-white data-[state=active]:font-semibold data-[state=active]:shadow-sm text-blue-100 font-semibold"
                         >
                             Experience
                         </TabsTrigger>
                         <TabsTrigger 
                             value="education" 
-                            className="data-[state=active]:bg-slate-800 text-white font-semibold"
+                            className="data-[state=active]:bg-gradient-to-b data-[state=active]:from-[#266ac2]/40 data-[state=active]:to-[#193366]/40 data-[state=active]:text-white data-[state=active]:font-semibold data-[state=active]:shadow-sm text-white font-semibold"
                         >
                             Education
                         </TabsTrigger>
                     </TabsList>
                     <TabsContent value="education">
-                        <Card className="bg-slate-900 border border-slate-800 shadow-lg">                           
-                            <CardContent className="p-4">
+                    <Card className="bg-gradient-to-br from-[#193366]/90 to-[#0a1a42]/90 backdrop-blur-sm border border-[#266ac2]/30 shadow-lg rounded-b-xl overflow-hidden">                           
+                    <CardContent className="p-4">
                                 {educations.map((education) => (
-                                    <div className='flex flex-col sm:flex-row py-3 gap-4' key={education.name}>
-                                        <Image src={education.image} alt={education.name} width={100} height={100}
+                                    <div 
+                                    className='flex flex-col sm:flex-row py-4 gap-4 border-b border-[#266ac2]/20 last:border-0' key={education.name}> 
+                                    <Image src={education.image} alt={education.name} width={100} height={100}
                                         className='border rounded-full size-[70px] sm:size-[100px] mx-auto sm:mx-0'
                                         />
                                         <div className='sm:pl-4 pt-2 text-center sm:text-left'>
@@ -50,7 +51,7 @@ export function Experience() {
                         </Card>
                     </TabsContent>
                     <TabsContent value="experience">
-                        <Card className="bg-slate-900 border border-slate-800 shadow-lg">                           
+                        <Card className="bg-gradient-to-br from-[#193366]/90 to-[#0a1a42]/90 backdrop-blur-sm border border-[#266ac2]/30 shadow-lg rounded-b-xl overflow-hidden">                           
                             <CardContent className="p-4">
                                 {experiences.map((experience) => (
                                     <div className='flex flex-col sm:flex-row py-3 gap-4' key={experience.name}>
@@ -68,11 +69,11 @@ export function Experience() {
                                                     <li className='break-words whitespace-normal w-full' key={accomplishment}>{accomplishment}</li>
                                                 ))}
                                             </ul>
-                                            <div className='py-1 w-full overflow-hidden'>
+                                            <div className='pt-10 w-full overflow-hidden'>
                                                 <ul className='flex flex-wrap items-center gap-2'>
                                                     {experience.tools.map((tool) => (
                                                         <li key={tool.name}
-                                                            className='flex justify-center items-center bg-white/10 rounded-xl px-3 py-1 text-gray-200 text-xs sm:text-sm font-semibold gap-1 mb-2'>
+                                                        className='flex justify-center items-center bg-gradient-to-r from-[#266ac2]/30 to-[#193366]/30 border border-[#266ac2]/20 rounded-xl px-3 py-1 text-blue-100 text-xs sm:text-sm font-medium gap-1.5 mb-2'>
                                                             <Image className='object-fit size-4 rounded-full flex-shrink-0' src={tool.icon} alt={tool.name} width={20} height={20} />
                                                             <p className='truncate'>{tool.name}</p>
                                                         </li>

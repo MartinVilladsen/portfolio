@@ -98,7 +98,7 @@ export const projects = [
     {
         name: 'Multiplayer Maze Game',
         icon: 'https://i.ibb.co/4wkfynq9/maze.png',
-        description: 'A group project where we developed a TCP server to host a multiplayer maze game. The goal was to allow multiple players to join and interact in real-time within the game environment.',
+        description: 'A group project where we developed a TCP server to host a multiplayer maze game. The goal was to allow multiple players to join by working with sockets and interact in real-time within the game environment.',
         link: '',
         github: 'https://github.com/MartinVilladsen/NetworkGame',
         tools: [
